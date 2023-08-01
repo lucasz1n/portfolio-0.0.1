@@ -1,0 +1,147 @@
+html,
+body,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select,
+optgroup,
+option,
+blockquote,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+ul,
+ol {
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+li {
+    margin: 0 0 5px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #333;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #333;
+}
+
+textarea {
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #333;
+}
+
+button {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+button:active {
+    background-color: #bbb;
+}
