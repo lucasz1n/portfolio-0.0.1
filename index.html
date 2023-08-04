@@ -3,30 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfilio</title>
+    <title>Portifolio</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-    <main id="conteudo">
-        <section id="conteudo_box">
-            <h1 id="conteudo_box_title">Aqui está um <strong class="titleBlue">estudante de programação</strong>
-                começando a desenvolver seu
-                primeiro projeto!</h1>
-            <p id="conteudo_box_paragrafo">Olá! me chamo Lucas Gabriel, estudante de desenvolvimento Front-end,
-                atualmente estudando HTML, CSS e JS.
-            </p>
-            <div id="conteudo_botton_social">
-                <a class="conteudo_botton_botao" href="https://www.instagram.com/l_ucasbm/" target="_blank">Instagram</a>
-                <a class="conteudo_botton_botao" href="https://github.com/lucasz1n" target="_blank">Github</a>
+    <header>
+        <nav class="menu">
+            <a class="menu_link" href="/index.html"> Home</a>
+            <a class="menu_link" href="/index.html"> Sobre Mim</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">
+                <strong class="titulo-destaque">Estudante focado em Front-End</strong>
+            </h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Lucas Gabriel, este é o meu primeiro projeto, usando
+                exclusivamente HTML e CSS.</p>
+            <div class="apresentacao__links">
+                <h2>Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://www.instagram.com/l_ucasbm/"
+                    target="_blank">Instagram
+                    <img src="/imagens/instagram.png" href="https://www.instagram.com/l_ucasbm/" target="_blank"
+                        alt="Logo do Instagram">
+                </a>
+                <a class="apresentacao__links__link" href="https://github.com/lucasz1n" target="_blank">GitHub
+                    <img src="/imagens/github.png" href="https://github.com/lucasz1n" target="_blank"
+                        alt="Logo do Github">
+                </a>
             </div>
         </section>
-        <img src="/Imagem.png" alt="Imagem do desenvolvedor meramente ilustrativa">
-
+        <img id="gato" src="/imagens/imagem.png" alt="Foto da Joana Santos programando">
     </main>
+    <footer>
+        <p>Projeto desenvolvido por Alura.</p>
+    </footer>
 </body>
 
 </html>
